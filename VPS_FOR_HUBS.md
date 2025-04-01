@@ -199,6 +199,8 @@ Look at [the mediasoup v3 Installation](https://mediasoup.org/documentation/v3/m
 
 you must install python 3 and make the default command `python` is calling `python3` see [this](https://dev.to/meetsohail/change-the-python3-default-version-in-ubuntu-1ekb)
 
+**NOTE** This can take a long time and doesn't appear to do much. It took 10-20 minutes for me.
+
 ## 2. Install Firewall and set up
 
 ### 2.1 Install
