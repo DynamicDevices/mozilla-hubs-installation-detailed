@@ -843,7 +843,7 @@ The `PROCESS_NAME` params can be changed to `all` to affect all process
 Move to `dialog` repo files location
 
 ```bash
-cd /hubs_projects/hubs/_work/dialog/dialog
+cd /hubs_projects/dialog/_work/dialog/dialog
 ```
 
 and try to run first with
@@ -851,6 +851,8 @@ and try to run first with
 ```bash
 npm run prod
 ```
+
+**NOTE** This all fell over for me until I installed `nvm` (Node version manager) and used it to change to use Node v16. Then it worked.
 
 if its ok (no error), then using pm2
 
