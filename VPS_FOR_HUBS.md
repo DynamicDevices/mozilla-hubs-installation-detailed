@@ -929,6 +929,8 @@ wget https://github.com/PostgREST/postgrest/releases/download/v9.0.0/postgrest-v
 
 On reticulum iex
 
+**NOTE** I seem to need to be in reticulum to be able to do this but I can't seem to run reticulum on port 4000 to be able to???
+
 paste this
 
 ```
