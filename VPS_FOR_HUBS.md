@@ -798,6 +798,12 @@ For checking the reticulum is running use this command to list the process which
 ```bash
 lsof -n -i4TCP:4000
 ```
+**NOTE** If you don't see this port then it might be that there has been a failure. The best way to see what's going on is to kill any existing process (as below) then run it in foreground mode e.g.
+
+```bash
+PORT=4000 MIX_ENV=prod elixir -S mix phx.server
+```
+For me this was showing it couldn't connect to my `ret_dev` database (as it didn't exist). So if this happens you need to (a) use postgres commands to create the `ret_dev` database, (b) set the `postgres` user password as you need (by default `postgres` in the config) and (c) grant privileges on the `ret_dev` database to the `postgres` user. When I did this the process ran up OK.
 
 To stop the process you can kill with PID
 
