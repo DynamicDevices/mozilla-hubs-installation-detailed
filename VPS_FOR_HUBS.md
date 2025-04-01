@@ -805,6 +805,8 @@ PORT=4000 MIX_ENV=prod elixir -S mix phx.server
 ```
 For me this was showing it couldn't connect to my `ret_dev` database (as it didn't exist). So if this happens you need to (a) use postgres commands to create the `ret_dev` database, (b) set the `postgres` user password as you need (by default `postgres` in the config) and (c) grant privileges on the `ret_dev` database to the `postgres` user. When I did this the process ran up OK.
 
+**NOTE** There's information [here](https://github.com/albirrkarim/mozilla-hubs-installation-detailed/blob/main/README.md#postgres-database) on setting postres user to super user, setting passwords and creating the `ret_dev` database
+
 To stop the process you can kill with PID
 
 ```bash
