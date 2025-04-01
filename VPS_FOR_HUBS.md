@@ -921,6 +921,12 @@ wget https://github.com/PostgREST/postgrest/releases/download/v9.0.0/postgrest-v
 tar -xf postgrest-v9.0.0-linux-static-x64.tar.xz
 ```
 
+**NOTE** The above is the x64 binary. I am running on ARM64 so need
+
+```
+wget https://github.com/PostgREST/postgrest/releases/download/v9.0.0/postgrest-v9.0.0-ubuntu-aarch64.tar.xz
+```
+
 On reticulum iex
 
 paste this
