@@ -1,5 +1,7 @@
 # Introduction
 
+**NOTE**: This article requires you to be running Ubuntu 20.04 LTS. There's a note [here](https://github.com/DynamicDevices/mozilla-hubs-installation-detailed/blob/main/VPS_FOR_HUBS_UBUNTU22.md) about the differences between 20.04 and 22.04.
+
 This article is about hosting the Mozilla hubs into VPS / self-hosted servers. See [the difference between this tutorial and the hubs-cloud](https://github.com/albirrkarim/mozilla-hubs-installation-detailed/blob/main/DIFFERENCE.md) first.
 
 Hubs provide easy deployment on AWS. it just works. But I don't want to buy some servers on AWS because I have my own server.
