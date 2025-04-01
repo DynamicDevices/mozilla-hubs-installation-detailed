@@ -862,6 +862,18 @@ with
 pm2 start npm --name dialog_server -- run prod
 ```
 
+**NOTE** You can check the process is running and view logs with
+
+```
+pm2 list
+```
+
+It should say "online"
+
+```
+pm2 logs dialog_server
+```
+
 #### 6.2.3 Serve with nginx for static assets
 
 For better memory usage we don't need serve this static asset with `webpack-dev-server`
