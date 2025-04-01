@@ -161,6 +161,18 @@ su admin
 
 You can be installing those with `asdf` please follow [this tutorial](https://www.pluralsight.com/guides/installing-elixir-erlang-with-asdf)
 
+**NOTE**: asdf will come up with a set of errors about needing to update to the new go build. I would do this by following the instructions [here](https://asdf-vm.com/guide/upgrading-to-v0-16.html) to remove the warning. Then the process is something like this
+
+**NOTE**: Don't forget to add the asdf shim path to your $PATH so it can find the 'mix' function
+
+```
+asdf plugin add erlang
+asdf plugin install erlang 23.3
+asdf plugin add elixir
+asdf plugin install elixir 1.14.4
+```
+**NOTE** The reticulum repository now uses versions of erlang and elixir that are newer than these two so this might all be our of date! See the new versions [here](https://github.com/DynamicDevices/reticulum/blob/master/.tool-versions)
+
 **Be careful** about the version of elixir and erlang, you must exact the same version with this tutorial.
 
 you can check the current elixir and erlang with
