@@ -821,6 +821,8 @@ Or with [single command](https://stackoverflow.com/a/55115797)
 
 #### 6.2.1 Process manager
 
+**NOTE** You aren't actually doing this step now. This is for information for the following steps
+
 If we run the node js project we use terminal. if we close that terminal the node js server will die. so we need to run that server in the background. with `pm2` we can manage the process like start, stop, restart, watch server logs.
 
 Useful pm2 command:
