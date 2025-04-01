@@ -890,6 +890,8 @@ npm run build
 
 then it will resulting static asset like .html, .js, .css file in `dist/` folder. later we will use the `dist/` directory for the root of the each port in nginx config.
 
+**NOTE** I don't really understand what this means or why it is needed. I looked in hubs and I had files in `dist/` from my GitHub CI builds but I tried running it again. I didn't have the files in `dist/` for Spoke so I ran it in there and it seemed to build them. I don't have a hubs admin folder so I assume this is something to do with the modification below???
+
 #### Additional modification for hubs admin. [See this first](https://github.com/albirrkarim/mozilla-hubs-installation-detailed#46-run-hubs-admin)
 
 modify the reticulum.
