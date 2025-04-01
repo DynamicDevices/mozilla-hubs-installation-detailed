@@ -139,6 +139,8 @@ apt-get upgrade
 
 When using github action runner we can't use the `root` user. so we create new user called admin.
 
+**NOTE** The `admin` user is refererences later in configuration files so if you use a different user you will need to check for and change to your user.
+
 ```
 sudo adduser admin
 ```
